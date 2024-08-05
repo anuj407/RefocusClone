@@ -1,5 +1,6 @@
 import Card from "./Componenets/Card"
 import Footer from "./Componenets/Footer"
+import Loader from "./Componenets/Loader"
 import Marquees from "./Componenets/Marquees"
 import Navbar from "./Componenets/Navbar"
 import Products from "./Componenets/Products"
@@ -11,6 +12,7 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className="App h-full bg-black overflow-hidden text-white">
+      <Loader/>
       <Navbar/>
       <Work/>
       <Stripes/>

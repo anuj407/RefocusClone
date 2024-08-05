@@ -35,6 +35,10 @@ export default {
         slideMenu:{
           'to': { transform: 'translateX(50%)' },
           'from': { transform: 'translateX(0%)' },
+        },
+        slideLoader:{
+          'from': { transform: 'translateY(0%)' },
+          'to': { transform: 'translateY(-100%)' },
         }
       },
       animation: {
@@ -43,6 +47,7 @@ export default {
         slideTop:'slideTop 0.4s linear ',
         slideDown:'slideDown 0.4s linear ',
         slideMenu:'slideMenu 0.4s linear ',
+        slideLoader:'slideLoader 2s linear ',
       },
       
     },
