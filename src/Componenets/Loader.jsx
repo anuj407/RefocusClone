@@ -1,10 +1,11 @@
 // import React from 'react'
 
 import gsap from "gsap"
+import { useEffect } from "react"
 
 function Loader() {
  
- window.onload = () => {
+ useEffect(() => {
   gsap.from(".loader",{
     duration:10,
     y:0,
@@ -17,7 +18,7 @@ function Loader() {
     ease:"elastic",
     delay:1
     })
-  }
+  })
   return (
     <div className="loader fixed  bg-black z-40 w-full h-screen flex items-center justify-between overflow-hidden">
         <div className="border-b-2 "></div>

@@ -5,14 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      
+    screens: {  
       'tablet': '640px',
-      // => @media (min-width: 640px) { ... }
-
       'laptop': '920px',
-      // => @media (min-width: 1024px) { ... }
-
     },
     extend: {
       keyframes: {
